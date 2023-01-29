@@ -15,6 +15,7 @@ import lombok.Data;
 public class YamlProperties {
 
   private String name;
+  private String sample;
 
   private List<String> aliases;
 

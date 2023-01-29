@@ -20,6 +20,7 @@ public class homeController {
 
   @PostMapping("/result")
   public String postRequestResult(Model model) {
+    model.addAttribute("sample", properties.getSample());
     model.addAttribute("name",properties.getName());
     return "result";
   }

@@ -1,5 +1,6 @@
 yaml:
   name: foo
+  sample: yukishi
   aliases: 
   - abc
   - xyz
